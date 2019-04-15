@@ -1,0 +1,23 @@
+<html>
+<body>
+
+<p id="p1">Hello World!</p>
+
+<script>
+"use strict";
+
+let numbers = [1,2,3,4,5,6,7,8,9];
+
+let t0 = performance.now();
+
+for (let i = 0; i < numbers.length; i++) {
+    console.log(number[i]);
+};
+
+let t1 = performance.now();
+let tTotal = t1 - t0;
+
+document.write( "Total execution time: " + tTotal.toFixed(3));
+</script>
+</body>
+</html>
